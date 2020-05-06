@@ -1,8 +1,10 @@
 from Controlador import Controladors
+from Vista import Aplicacion
 
 class programaCronometro():
     def __init__(self):
-        Controladors.mostrar()
+        v = Aplicacion()
+        c = Controladors(v)
 
 def main():
     programaCronometro()

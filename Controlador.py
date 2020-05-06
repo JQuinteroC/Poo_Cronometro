@@ -1,9 +1,6 @@
 from Vista import Aplicacion
 
 class Controladors():
-    def __init__(self):
-        app = Aplicacion()
+    def __init__(self, vista):
+        app = vista
         
-    def mostrar():
-        Aplicacion()
-
